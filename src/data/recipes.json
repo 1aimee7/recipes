@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "title": "Pancakes",
+    "slug": "pancakes",
+    "image": "/images/pancake.jpg",
+    "ingredients": [
+      "1 cup flour",
+      "1 tbsp sugar",
+      "1 cup milk",
+      "2 eggs",
+      "1 tsp vanilla extract"
+    ],
+    "steps": [
+      "Mix dry ingredients in a bowl.",
+      "Whisk milk, eggs, and vanilla in another bowl.",
+      "Combine wet and dry ingredients.",
+      "Cook on a hot griddle until golden brown."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Pizza",
+    "slug": "pizza",
+    "image": "/images/pizza.jpg",
+    "ingredients": [
+      "1 pizza dough",
+      "1/2 cup tomato sauce",
+      "1 cup mozzarella cheese",
+      "Toppings of choice"
+    ],
+    "steps": [
+      "Preheat oven to 450°F.",
+      "Roll out dough on a baking sheet.",
+      "Spread sauce, add cheese and toppings.",
+      "Bake for 12-15 minutes."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Pasta",
+    "slug": "pasta",
+    "image": "/images/pasta.jpg",
+    "ingredients": [
+      "400g spaghetti",
+      "2 tbsp olive oil",
+      "3 garlic cloves",
+      "1 cup marinara sauce",
+      "Grated Parmesan"
+    ],
+    "steps": [
+      "Boil spaghetti in salted water until al dente.",
+      "Heat olive oil in a pan and sauté garlic.",
+      "Add marinara sauce and cook for 5 minutes.",
+      "Toss pasta in sauce and serve with Parmesan."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Salad",
+    "slug": "salad",
+    "image": "/images/salad.jpg",
+    "ingredients": [
+      "2 cups lettuce",
+      "1 tomato",
+      "1 cucumber",
+      "1/4 cup olive oil",
+      "2 tbsp vinegar"
+    ],
+    "steps": [
+      "Wash and chop lettuce, tomato, and cucumber.",
+      "Mix olive oil and vinegar to make dressing.",
+      "Toss vegetables with dressing in a bowl.",
+      "Serve fresh."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Chicken Curry",
+    "slug": "chicken-curry",
+    "image": "/images/chicken-curry.jpg",
+    "ingredients": [
+      "500g chicken",
+      "2 tbsp curry powder",
+      "1 onion",
+      "1 can coconut milk",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Chop onion and sauté until golden.",
+      "Add chicken and cook until browned.",
+      "Stir in curry powder and coconut milk.",
+      "Simmer for 20 minutes and season with salt."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Sushi",
+    "slug": "sushi",
+    "image": "/images/sushi.jpg",
+    "ingredients": [
+      "1 cup sushi rice",
+      "2 tbsp rice vinegar",
+      "Nori sheets",
+      "Fresh fish",
+      "Soy sauce"
+    ],
+    "steps": [
+      "Cook sushi rice and mix with rice vinegar.",
+      "Place nori on a mat and spread rice evenly.",
+      "Add fish and roll tightly.",
+      "Slice and serve with soy sauce."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Steak",
+    "slug": "steak",
+    "image": "/images/steak.jpg",
+    "ingredients": [
+      "2 steaks",
+      "1 tbsp butter",
+      "Salt and pepper",
+      "1 garlic clove",
+      "Fresh rosemary"
+    ],
+    "steps": [
+      "Season steaks with salt and pepper.",
+      "Heat butter in a skillet and add garlic and rosemary.",
+      "Cook steaks for 4-5 minutes per side.",
+      "Rest for 5 minutes before serving."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Soup",
+    "slug": "soup",
+    "image": "/images/soup.jpg",
+    "ingredients": [
+      "2 carrots",
+      "1 potato",
+      "1 liter vegetable broth",
+      "1 onion",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Chop carrots, potato, and onion.",
+      "Boil vegetables in vegetable broth.",
+      "Simmer for 20 minutes until tender.",
+      "Blend and season with salt."
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Cake",
+    "slug": "cake",
+    "image": "/images/cake.jpg",
+    "ingredients": [
+      "2 cups flour",
+      "1 cup sugar",
+      "1/2 cup butter",
+      "3 eggs",
+      "1 tsp baking powder"
+    ],
+    "steps": [
+      "Preheat oven to 350°F.",
+      "Mix flour, sugar, and baking powder.",
+      "Add butter and eggs, mix until smooth.",
+      "Bake for 30 minutes in a greased pan."
+    ]
+  }
+]
