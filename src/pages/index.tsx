@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { GetStaticProps } from "next";
 
-// Define the Recipe type
+
 type Recipe = {
   id: number;
   title: string;
@@ -19,20 +19,20 @@ type HomeProps = {
 export default function Home({ recipes }: HomeProps) {
   return (
     <div className="min-h-screen bg-gradient-to-b from-amber-50 to-orange-50">
-      {/* Refined header with gradient to match recipe page */}
+     
       <header className="bg-gradient-to-r from-amber-500 to-orange-500 shadow-md">
         <div className="max-w-5xl mx-auto py-6 px-4">
           <h1 className="text-3xl font-bold text-white">Recipe Viewer</h1>
         </div>
       </header>
 
-      {/* Main content */}
+     
       <main className="max-w-5xl mx-auto py-12 px-4">
         <h2 className="text-2xl font-semibold text-orange-800 mb-8 pb-2 border-b border-orange-200 inline-block">
           Delicious Recipes
         </h2>
         
-        {/* Recipe Grid */}
+      
         <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {recipes.map((recipe) => (
             <li
@@ -79,7 +79,7 @@ export default function Home({ recipes }: HomeProps) {
           ))}
         </ul>
 
-        {/* Improved footer */}
+     
         <footer className="mt-16 py-8 text-center">
           <p className="text-orange-700 mb-4">Explore delicious recipes with Recipe Viewer!</p>
           
@@ -89,7 +89,7 @@ export default function Home({ recipes }: HomeProps) {
   );
 }
 
-// Fetch data at build time
+
 export const getStaticProps: GetStaticProps = async () => {
   const recipes: Recipe[] = require("../data/recipes.json");
 
