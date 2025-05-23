@@ -1,6 +1,7 @@
 import { GetStaticPaths, GetStaticProps } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import recipes from "../../data/recipes.json"
 
 
 type Recipe = {
@@ -121,7 +122,6 @@ export default function RecipePage({ recipe }: RecipePageProps) {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const recipes: Recipe[] = require("../../data/recipes.json");
   const paths = recipes.map((recipe) => ({
     params: { slug: recipe.slug },
   }));
@@ -133,7 +133,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const recipes: Recipe[] = require("../../data/recipes.json");
   const recipe = recipes.find((r) => r.slug === params?.slug) || null;
   return {
     props: {

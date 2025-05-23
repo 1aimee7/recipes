@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { GetStaticProps } from "next";
+import recipes from "../data/recipes.json";
 import {
   SignedIn,
   SignedOut,
@@ -130,7 +131,6 @@ export default function Home({ recipes }: HomeProps) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const recipes: Recipe[] = require("../data/recipes.json");
 
   return {
     props: {
